@@ -19,7 +19,11 @@ Bienvenue à Ubuntu 22.04.4 LTS (GNU/Linux 5.15.0-116-generic x86\_64).
 - IPv4 pour eth0 : 10.0.2.29
 - IPv6 pour eth0 : fd00::a00:27ff\:fec8:9864
 
+### Capture d'écran
 
+<div align="center">
+  <img src="./Screenshots/acces a ubuntu.png"  width="100%" height="100%">
+  </div>
 
 ---
 
@@ -53,6 +57,11 @@ kubectl apply -f mypod.yaml
 ```bash
 kubectl get pods
 ```
+### Capture d'écran
+
+<div align="center">
+  <img src="./Screenshots/Creation pod.png"  width="100%" height="100%">
+  </div>
 
 ### Étape 2 : Création d'un ReplicaSet
 
@@ -92,6 +101,12 @@ kubectl apply -f myreplicaset.yaml
 kubectl get replicasets
 kubectl get pods
 ```
+### Capture d'écran
+
+<div align="center">
+  <img src="./Screenshots/Creation replicaset.png"  width="100%" height="100%">
+  </div>
+
 
 ### Étape 3 : Création d'un Deployment
 
@@ -131,6 +146,13 @@ kubectl apply -f mydeployment.yaml
 kubectl get deployments
 kubectl get pods
 ```
+### Capture d'écran
+
+<div align="center">
+  <img src="./Screenshots/creation du deploiment.png"  width="100%" height="100%">
+  </div>
+
+
 
 ### Étape 4 : Création d'un Service
 
@@ -163,6 +185,12 @@ kubectl apply -f myservice.yaml
 ```bash
 kubectl get services
 ```
+### Capture d'écran
+
+<div align="center">
+  <img src="./Screenshots/Creation du service.png"  width="100%" height="100%">
+  </div>
+
 
 ### Étape 5 : Accès à l'Application
 
@@ -186,6 +214,12 @@ Si l'adresse IP du noeud est `192.168.70.118`, accès à :
 ```
 http://192.168.70.118:30001/
 ```
+### Capture d'écran
+
+<div align="center">
+  <img src="./Screenshots/acces a l'aplication.png"  width="100%" height="100%">
+  </div>
+
 
 **Félicitations !** Votre application Nginx est déployée avec succès sur Kubernetes.
 
